@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <title>router</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+    <div ui-view="viewA"></div>
+    <div ui-view="viewB"></div>
+    <a ui-sref="index.a1">routerA</a>
+    <a ui-sref="index.a2">routerB</a>
+
+    <!--<div ui-view></div>-->
+<script src="../script/angular.min.js"></script>
+<script src="../script/angular-ui-router.min.js"></script>
+<script src="../script/router.js"></script>
+</body>
+</html>
